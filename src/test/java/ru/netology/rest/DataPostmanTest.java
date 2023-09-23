@@ -18,7 +18,7 @@ class DataPostmanTest {
                 .post("/post")
                 .then()// Проверки
                 .statusCode(200)
-                .body("data", equalTo("привет, мир!"))
+                .body("data", equalTo("Привет, Мир!"))
         ;
     }
 }
